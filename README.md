@@ -59,8 +59,8 @@ pip install numpy pandas openpyxl scikit-learn matplotlib Pillow docx2python ter
 ## Installation
 
 ```bash
-git clone <repository-url>
-cd prog
+git clone https://github.com/neolfik/PhaSaga.git
+cd PhaSaga
 pip install numpy pandas openpyxl scikit-learn matplotlib Pillow docx2python termcolor
 python main.py
 ```
