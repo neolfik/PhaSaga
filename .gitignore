@@ -1,0 +1,27 @@
+# Local, machine-specific phase database (auto-generated, do not commit)
+master_phases.json
+master_phases.json.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling / editors
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# OS temp leftovers
+*.tmp

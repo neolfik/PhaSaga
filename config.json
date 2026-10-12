@@ -1,0 +1,17 @@
+{
+    "_comment": "Phase Analysis Configuration File - Edit these settings to control data processing",
+    
+    "normalization": {
+        "enabled": true,
+        "apply_to_both_types": true,
+        "_comment_normalization": "enabled: Turn normalization on/off for all files, apply_to_both_types: Apply to both INCA and AZTEC (if false, only INCA)"
+    },
+    
+    "images": {
+        "embed_images": true,
+        "min_width_columns": 4,
+        "max_width_columns": 8,
+        "preserve_aspect_ratio": true,
+        "_comment_images": "embed_images: Extract and embed SEM images from AZTEC files, min_width_columns: Minimum display width (≈240px), max_width_columns: Maximum display width (≈480px), preserve_aspect_ratio: Keep original image proportions"
+    }
+}
